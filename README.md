@@ -1,35 +1,58 @@
-# 🍄 Mushroom Classifier using Machine Learning
+# 🍄 Mushroom Classifier – AI-Based Edibility Prediction
 
-This project is a Machine Learning model to classify mushrooms as **edible** or **poisonous** based on their features. It uses a dataset from Kaggle and explores various classification algorithms to achieve optimal accuracy.
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
+![Made with ML](https://img.shields.io/badge/Machine%20Learning-Enabled-red?logo=scikit-learn)
 
----
-
-## 📌 Features
-
-- Data preprocessing and analysis
-- Feature encoding and selection
-- Classification using:
-  - Decision Tree
-  - Random Forest
-  - Support Vector Machine
-- Evaluation metrics: Accuracy, Precision, Recall, F1-Score
-- Trained model export and prediction script
+> 🎯 **Objective**: Predict whether a mushroom is 🍽️ *edible* or ☠️ *poisonous* based on its physical features using state-of-the-art machine learning models.
 
 ---
 
-## 📊 Dataset
+## 🧠 Tech Stack
 
-The dataset used in this project is publicly available on [Kaggle - Mushroom Classification Dataset](https://www.kaggle.com/datasets/uciml/mushroom-classification).  
-> **Note**: The dataset is not included in this repo due to Kaggle's T&C. Please download it manually.
+- **Languages**: Python 🐍  
+- **Libraries**: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, Joblib  
+- **Models Used**: Decision Tree, Random Forest, Support Vector Machine  
+- **Data Source**: [Kaggle – Mushroom Classification Dataset](https://www.kaggle.com/datasets/uciml/mushroom-classification)
 
 ---
 
-## 📁 Project Structure
+## 🧾 Table of Contents
 
-```bash
-├── data/                 # Dataset directory
-├── notebooks/            # Jupyter notebooks
-├── src/                  # Source code
-├── models/               # Saved ML model
-├── requirements.txt      # Required packages
-└── README.md             # Project overview
+- [Overview](#-project-overview)
+- [Features](#-features)
+- [Demo](#-demo)
+- [Installation](#-installation)
+- [Project Structure](#-project-structure)
+- [Usage](#-usage)
+- [Model Performance](#-model-performance)
+- [Future Work](#-future-enhancements)
+- [Author](#-author)
+- [License](#-license)
+
+---
+
+## 🗂️ Project Overview
+
+This Mushroom Classifier project leverages machine learning to predict if a mushroom is safe to eat or toxic. The dataset includes various features like cap shape, odor, gill size, habitat, etc., and all are categorical. After preprocessing and feature encoding, multiple ML models are trained, evaluated, and compared.
+
+---
+
+## ✨ Features
+
+✅ Data Cleaning & Encoding  
+✅ Visualizations for EDA  
+✅ Multiple Model Training & Comparison  
+✅ Accuracy Metrics: Confusion Matrix, F1-Score, ROC-AUC  
+✅ Exported Model for Production Use  
+✅ Modular Python Scripts for Reusability  
+✅ Ready-to-run Jupyter Notebook  
+✅ Deployment-Ready Design
+
+---
+
+## 🔥 Demo
+
+📸 **Prediction Example**:
