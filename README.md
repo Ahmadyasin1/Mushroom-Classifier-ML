@@ -53,6 +53,62 @@ This Mushroom Classifier project leverages machine learning to predict if a mush
 
 ---
 
-## 🔥 Demo
+## 🔮 Future Enhancements
+🔍 Integrate object detection for precise crack bounding boxes
 
-📸 **Prediction Example**:
+📱 Build mobile camera interface (e.g., Android app)
+
+🧠 Model explainability via SHAP
+
+🌐 REST API (FastAPI) for remote diagnosis
+
+🧾 Multi-language report generation
+
+---
+
+## 🤝 Contributing
+We welcome contributions of all types!
+
+🌱 Fork the repo
+
+🛠️ Make changes
+
+🔁 Submit a pull request
+
+Let’s make this better together!
+
+---
+
+## 👤 Author
+Ahmad Yasin
+💼 AI Developer | ML Enthusiast | Full-Stack Learner
+📧 AhmadYasin.info@gmail.com
+🔗 LinkedIn www.linkedin.com/in/mian-ahmad-yasin 
+🌐 https://ahmadyasin.vercel.app/
+
+---
+
+## ⭐ Support
+If this project helped you or you found it interesting, feel free to ⭐ star the repo and share!
+
+---
+## 📜 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+---
+
+## ⚙️ How to Run Locally
+
+```bash
+# Step 1: Clone the Repository
+git clone https://github.com/your-username/bone-fracture-classifier.git
+cd bone-fracture-classifier
+
+# Step 2: Create Virtual Environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Step 3: Install Dependencies
+pip install -r requirements.txt
+
+# Step 4: Run Inference
+python predict.py --image path/to/xray.jpg
